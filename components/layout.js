@@ -33,7 +33,7 @@ export default function Layout({ children, home }) {
               className={utilStyles.borderCircle}
               height={144}
               width={144}
-              alt={name}
+              alt={"Profile Picture"}
             />
             <h1 className={utilStyles.heading2Xl}>{"Zach Schickler.\nTest."}</h1>
           </>
@@ -47,7 +47,7 @@ export default function Layout({ children, home }) {
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
-                  alt={name}
+                  alt={"Profile Picture"}
                 />
               </a>
             </Link>
