@@ -14,7 +14,9 @@ export default function Home() {
         <p className="description">
           Hi, my name is
         </p>
-        <Header title="Zach Schickler. \nI make games." />
+        <Header title="Zach Schickler." />
+        <br></br>
+        <Header title="I make games." />
         <p className="description">
           I make games.
         </p>
