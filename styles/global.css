@@ -24,3 +24,10 @@ img {
     max-width: 100%;
     display: block;
 }
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}

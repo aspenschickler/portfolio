@@ -29,13 +29,14 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/profile3.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt={"Profile Picture"}
             />
-            <h1 className={utilStyles.heading2Xl}>{"Zach Schickler.\t\nI play games."}</h1>
+            <h1 className={utilStyles.heading2Xl}>{"Zach Schickler."}</h1>
+            <h1 className={utilStyles.heading2Xl}>{"I make games."}</h1>
           </>
         ) : (
           <>
