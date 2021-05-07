@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt={"Profile Picture"}
             />
-            <h1 className={utilStyles.heading2Xl}>{"Zach Schickler.   \nI play games."}</h1>
+            <h1 className={utilStyles.heading2Xl}>{"Zach Schickler.\t\nI play games."}</h1>
           </>
         ) : (
           <>
@@ -53,7 +53,7 @@ export default function Layout({ children, home }) {
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{"Zach Schickler.   \nI play games."}</a>
+                <a className={utilStyles.colorInherit}>{"Zach Schickler.\t\nI play games."}</a>
               </Link>
             </h2>
           </>
