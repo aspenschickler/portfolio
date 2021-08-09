@@ -27,8 +27,8 @@ const TitleTextLower = styled.h1`
 const Title = () => {
 	return (
 		<>
-			<TitleTextUpper>Row 1</TitleTextUpper>
-			<TitleTextLower>Row 2</TitleTextLower>
+			<TitleTextUpper>Zach</TitleTextUpper>
+			<TitleTextLower>Schickler</TitleTextLower>
 		</>
 	)
 }
